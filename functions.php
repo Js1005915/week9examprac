@@ -5,7 +5,7 @@ function sqlAllCustomers() {
 }
 
 function sqlAvailableBikes() {
-    return("SELECT bike_id, model, type, hourly_rate FROM `bikes` WHERE available = 1;");
+    return("SELECT bike_id, model, type, hourly_rate, available FROM `bikes` WHERE available = 1;");
 }
 
 function sqlAllBikesByPrice() {
